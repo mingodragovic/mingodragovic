@@ -25,7 +25,7 @@
 
 ###
 
-<h3 align="center">Front-End Software Engineer • SaaS • Performance-Driven UI</h3>
+<h3 align="center">Front-End Software Engineer </h3>
 
 ---
 
@@ -122,11 +122,6 @@ I'm a **production-focused Front-End Engineer** based in Algeria 🇩🇿, speci
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=dark&hide_border=false" height="220"/>
-</div>
 
 ---
 
