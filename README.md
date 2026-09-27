@@ -20,19 +20,20 @@
 
 ###
 
-<h3 align="center">Front-End Software Engineer </h3>
+<h3 align="center">Full-Stack Software Engineer</h3>
 
 ---
 
 ### 👨‍💻 About Me
 
-I'm a **production-focused Front-End Engineer** based in Algeria 🇩🇿, specialized in building **scalable SaaS platforms** with React and Next.js.
+I'm a **production-focused Full-Stack Engineer** based in Algeria 🇩🇿, specialized in building **end-to-end SaaS platforms** — React/Next.js on the front end, NestJS/Node.js on the back end, and PostgreSQL/MongoDB for data.
 
-* 🚀 I design and ship **high-performance, data-driven interfaces**
+* 🚀 I design, build, and deploy **complete platforms**: schema → API → UI → CI/CD
 * ⚡ Consistently achieving **95+ Lighthouse scores** and **<1.5s load times**
-* 🧠 Strong focus on **state architecture, real-time systems, and performance optimization**
-* 🤝 Comfortable working **solo or in fast-moving teams**
-* 🛠 Currently exploring **backend systems with Go (Golang)**
+* 🔄 Strong focus on **real-time systems, state architecture, and performance optimization**
+* 🔐 Comfortable owning **auth, payments, and infrastructure**, not just UI
+* 🤝 Equally effective **solo** or embedded in fast-moving teams
+* 🛠 Currently exploring **Go (Golang)** for backend systems
 
 ---
 
@@ -50,6 +51,7 @@ I'm a **production-focused Front-End Engineer** based in Algeria 🇩🇿, speci
 #### ⚙️ Backend & Data
 
 <div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40"/>
@@ -66,7 +68,7 @@ I'm a **production-focused Front-End Engineer** based in Algeria 🇩🇿, speci
 
 #### ⚡ Infra & Tools
 
-* Docker • AWS S3 • CI/CD • JWT • OAuth 2.0 • Git
+* Docker • Docker Compose • Nginx • AWS S3 • MinIO • CI/CD (GitHub Actions) • JWT • OAuth 2.0 • Socket.IO • Git
 
 ---
 
@@ -74,48 +76,57 @@ I'm a **production-focused Front-End Engineer** based in Algeria 🇩🇿, speci
 
 #### 🏢 Front-End Software Engineer — Saddeem Informatique (2025 – Present)
 
-* Led frontend architecture & delivery of multiple **production SaaS platforms**
-* 📉 Reduced onboarding time by **~35%** via modular architecture
-* ⚡ Achieved **96 Lighthouse scores** & **<1.2s FCP**
-* 🔄 Reduced release cycles from **days → hours** with CI/CD + Docker
+* Architected and shipped multiple **production SaaS platforms** across healthcare, auto services, and enterprise tooling
+* ⚡ Achieved a **96 average Lighthouse score** & **<1.2s FCP** across all releases
+* 📉 Reduced cross-project onboarding time by **~35%** via modular architecture & design systems
+* 🔄 Designed REST API contracts with backend teams, cutting integration rework by **~40%**
+* 🔴 Delivered real-time features (Socket.IO, live dashboards) backed by NestJS + PostgreSQL, deployed via Docker Compose + GitHub Actions
 
-#### 🏢 Front-End Developer — Thinline (2025)
+#### 🏢 Front-End Developer — Thinline (Apr 2025 – Oct 2025)
 
-* Built enterprise-grade UIs with **sub-1.5s load times**
-* 📊 Real-time dashboards processing thousands of data points (<200ms latency)
-* 🐞 Reduced UI bugs by **60%** using testing + Storybook workflows
+* Built enterprise-grade UIs with **sub-1.5s load times** and **98+ Lighthouse scores**
+* 📊 Real-time analytics dashboards (GraphQL + TanStack Query) processing thousands of concurrent data points at **<200ms latency**
+* 🐞 Reduced client-reported bugs by **60%** with Vitest test suites + Storybook-driven reviews
+
+#### 🏢 Full-Stack Freelance Software Engineer — Independent (Sep 2024 – Present)
+
+* Owned the **full delivery lifecycle** solo: system design, database modeling, APIs, front end, auth, real-time features, payments, and infrastructure
+* Delivered production-grade platforms with **sub-1.5s load times** and **95+ Lighthouse scores**
 
 ---
 
 ### 🚀 Featured Projects
 
+#### 🔹 OrthoVoix — Speech Therapy Platform (Full-Stack, Solo)
+
+* 🧱 Designed the database schema, built the NestJS REST API, implemented JWT auth with role-based access
+* 🐳 Configured a multi-container VPS environment with Nginx reverse proxy + MinIO object storage
+* 📱 React PWA with offline support, real-time Socket.IO notifications, and multimedia progress tracking
+
+#### 🔹 ANGEM Financement — Government Micro-Credit Platform
+
+* 🏛️ Front end for a national Algerian government agency delivering interest-free microloans
+* 🌍 Bilingual (Arabic/French) platform connecting citizens with a nationwide public financing program
+
 #### 🔹 SafeSend — File Transfer Platform
 
-* ⚡ Built full frontend architecture solo (6 weeks)
-* 🚀 Direct-to-S3 uploads (150 MB/s throughput)
-* 🧠 Eliminated race conditions with clean state architecture
-* 🔐 Secure auth (2FA + JWT)
+* ⚡ Multipart AWS S3 upload pipeline with real-time progress tracking (**150 MB/s** sustained throughput)
+* 🔐 OTP + password + 2FA auth, QR-code sharing, admin analytics dashboard (**45%** faster task completion)
 
-#### 🔹 DARHNA — Marketplace Admin Platform
+#### 🔹 Tasmim — Technical Project Management Platform
 
-* 👥 10,000+ users at launch
-* 📊 KPI dashboards → decisions **2× faster**
-* 🔐 Role-based access + secure workflows
+* 🌍 Tri-lingual (Arabic/French/English) client, provider, and admin applications covering the full project lifecycle
+* 💬 Real-time chat, versioned file sharing, role-based access, Stripe subscriptions with a 30-day trial
 
-#### 🔹 Huncho Editor — SaaS Design Tool
+#### 🔹 Tbibna — Telemedicine Admin Dashboard
 
-* 🎨 Real-time collaborative canvas (60 FPS)
-* ⚡ <80ms interaction latency
-* 💾 Zero perceived data loss (autosave + optimistic updates)
+* 🩺 Appointment management, doctor availability, patient records, and real-time status feeds
+* ⚡ Sub-300ms render times on large datasets
 
 #### 🔹 FlexPen — 3D Medical Platform
 
 * 🧊 Built with Three.js / React Three Fiber
-* 🎯 60 FPS desktop / 30 FPS mobile
-* 📉 Reduced load time by **55%**
-
----
-
+* 🎯 60 FPS desktop / 30 FPS mobile, with a **55%** reduction in load time
 
 ---
 
@@ -123,6 +134,6 @@ I'm a **production-focused Front-End Engineer** based in Algeria 🇩🇿, speci
 
 * 📧 [ilyes.dragovic@gmail.com](mailto:ilyes.dragovic@gmail.com)
 * 🌍 Algeria
-* 💼 Open to **international SaaS opportunities**
+* 💼 Open to **international full-stack SaaS opportunities**
 
 ---
